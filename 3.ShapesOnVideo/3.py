@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 # Specify the full path to the image
-image_path = r'C:\Users\chafl\OneDrive\Desktop\yash\OPENCV\lecture3\lena.jpg'
+image_path = r'c:\Users\chafl\OneDrive\Desktop\yash\OPENCV\3.ShapesOnVideo\lena2.jpg'
 
 # Check if the image file exists at the specified path
 if not os.path.exists(image_path):
