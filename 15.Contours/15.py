@@ -19,7 +19,7 @@ print(f"Area of first contour: {cv2.contourArea(contours[0])}")
 print(f"Perimeter of first contour: {cv2.arcLength(contours[0], True)}")
 
 # Draw all contours on the original image
-cv2.drawContours(img, contours, 2, (0, 255, 0), 3)
+cv2.drawContours(img, contours, -1, (0, 255, 0), 2)
 
 # Display the original image with contours and the grayscale image
 cv2.imshow('Original Image with Contours', img)

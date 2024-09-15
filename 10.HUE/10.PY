@@ -4,7 +4,7 @@ import numpy as np
 def nothingh(x):
     pass
 
-cap=cv2.VideoCapture(1)
+cap=cv2.VideoCapture(0)
 cv2.namedWindow('Tracking')
 cv2.createTrackbar('LH', 'Tracking', 0, 255, nothingh)
 cv2.createTrackbar('LS', 'Tracking', 0, 255, nothingh)

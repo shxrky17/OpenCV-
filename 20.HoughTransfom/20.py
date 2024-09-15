@@ -21,10 +21,10 @@ if lines is not None:
         b = np.sin(theta)
         x0 = rho * a
         y0 = rho * b
-        x1 = int(x0 + 1000 * (-b))
-        y1 = int(y0 + 1000 * (a))
-        x2 = int(x0 - 1000 * (-b))
-        y2 = int(y0 - 1000 * (a))
+        x1 = int(x0 + 100 * (-b))
+        y1 = int(y0 + 100 * (a))
+        x2 = int(x0 - 100 * (-b))
+        y2 = int(y0 - 100 * (a))
         cv2.line(img, (x1, y1), (x2, y2), (0, 0, 255), 2)
 
 # Display the image with the detected lines
